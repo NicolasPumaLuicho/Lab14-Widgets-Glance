@@ -15,6 +15,7 @@ import androidx.glance.appwidget.GlanceAppWidgetReceiver
 import androidx.glance.appwidget.action.ActionCallback
 import androidx.glance.appwidget.action.actionRunCallback
 import androidx.glance.appwidget.provideContent
+import androidx.glance.appwidget.updateAll
 import androidx.glance.background
 import androidx.glance.layout.Alignment
 import androidx.glance.layout.Column
@@ -93,6 +94,6 @@ class AddMovieAction : ActionCallback {
         parameters: ActionParameters
     ) {
         MovieStore.add(context)
-        MovieWidget().update(context, glanceId)
+        MovieWidget().updateAll(context)
     }
 }
