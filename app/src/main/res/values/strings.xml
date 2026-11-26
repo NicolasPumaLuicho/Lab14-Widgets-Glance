@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MovieCounter</string>
+    <string name="summary_title">Resumen de películas</string>
+    <string name="simple_widget_desc">Accesos directos a la app y al resumen</string>
+    <string name="movie_widget_desc">Contador de películas vistas</string>
+</resources>
